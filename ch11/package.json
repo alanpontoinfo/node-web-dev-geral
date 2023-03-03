@@ -1,0 +1,37 @@
+{
+  "name": "meadowlarktravel",
+  "version": "0.0.0",
+  "description": "Sample website for Web Development with Node and Express (O'Reilly).",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EthanRBrown/web-development-with-node-and-express.git"
+  },
+  "author": "Ethan Brown <e@zepln.com>",
+  "license": "GPL, MIT",
+  "bugs": {
+    "url": "https://github.com/EthanRBrown/web-development-with-node-and-express/issues"
+  },
+  "homepage": "https://github.com/EthanRBrown/web-development-with-node-and-express",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "formidable": "^2.0.1",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-exec": "^3.0.0",
+    "mocha": "^10.1.0",
+    "zombie": "^6.1.4"
+  }
+}
